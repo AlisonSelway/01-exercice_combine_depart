@@ -1,0 +1,13 @@
+/* [COMPOSANT INFO--SOCIAL] */
+/* ---------------------------------------------- */
+
+.info--social {
+    position: relative;
+    width: 100%;
+    height: 420px;
+    background-image: url(../../assets/jpg/background-bouffe.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
