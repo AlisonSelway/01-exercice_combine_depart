@@ -1,5 +1,6 @@
-:root{
-    --blanc:#fff;
-    --noir : #000;
-    --grisFonce: hsl(216,4%,14%);
-  }
+:root {
+  --blanc: #fff;
+  --noir: #000;
+  --grisFonce: hsl(216, 4%, 14%);
+  --grisPale: hsl(216, 4%, 94%)
+}

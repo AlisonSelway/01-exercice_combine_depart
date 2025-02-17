@@ -6,3 +6,8 @@ header{
     align-items: center;
     background-color: var(--grisFonce);
 }
+
+.info--column{
+    display: grid;
+    grid-template-columns: 100%;
+}
