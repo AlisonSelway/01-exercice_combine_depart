@@ -8,6 +8,7 @@
 @import url('_composant/header.css');
 @import url('_composant/info-index-text.css');
 @import url('_composant/info-complement.css');
+@import url('_composant/boutons.css');
 
 /*[ importation du dossier _layout ]*/
 @import url('_layout/structure.css');
