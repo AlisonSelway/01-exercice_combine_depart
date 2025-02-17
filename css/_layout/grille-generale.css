@@ -1,13 +1,19 @@
 /* [LAYOUT DE LA GRILLE] */
 /* ---------------------------------------------- */
 
-header{
+header {
     justify-items: center;
     align-items: center;
     background-color: var(--grisFonce);
 }
 
-.info--column{
+.info--column {
     display: grid;
     grid-template-columns: 100%;
+
+    @media (min-width:992px) {
+        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
