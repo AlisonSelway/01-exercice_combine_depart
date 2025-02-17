@@ -11,3 +11,9 @@
     padding: 64px 0;
     background-color: var(--vert);
 }
+
+.info--complement p{
+    position: relative;
+    margin: 2rem 0;
+    padding-top: 1rem;
+}

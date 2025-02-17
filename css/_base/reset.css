@@ -11,21 +11,25 @@
 
 /* Définition d'une taille de police de base */
 html {
-  font-size: 100%; /* Valeur par défaut pour une meilleure accessibilité */
+  font-size: 100%;
+  /* Valeur par défaut pour une meilleure accessibilité */
 }
 
 /* Reset des éléments de base */
 body {
-  font-family: sans-serif;
+  font-family: "Roboto", serif;
   line-height: 1.5;
-  background-color: #fff; /* Fond blanc par défaut */
-  color: #000; /* Couleur du texte par défaut */
+  background-color: #fff;
+  /* Fond blanc par défaut */
+  color: #000;
+  /* Couleur du texte par défaut */
 }
 
 /* Reset des styles pour les liens */
 a {
   text-decoration: none;
-  color: inherit; /* La couleur du lien héritera de celle du texte parent */
+  color: inherit;
+  /* La couleur du lien héritera de celle du texte parent */
 }
 
 /* Enlever les bordures par défaut des boutons et des éléments de formulaire */
@@ -43,14 +47,17 @@ textarea {
 
 /* Enlever les styles des images */
 img {
-  display: block; /* Enlève l'espace sous les images */
-  max-width: 100%; /* S'assure que l'image ne déborde pas de son conteneur */
+  display: block;
+  /* Enlève l'espace sous les images */
+  max-width: 100%;
+  /* S'assure que l'image ne déborde pas de son conteneur */
   height: auto;
 }
 
 /* Réinitialisation des styles des tableaux */
 table {
-  border-collapse: collapse; /* Supprime les espaces entre les cellules */
+  border-collapse: collapse;
+  /* Supprime les espaces entre les cellules */
   width: 100%;
 }
 
@@ -58,23 +65,25 @@ table {
 select,
 textarea,
 input {
-  appearance: none; /* Enlever l'apparence par défaut des éléments de formulaire */
+  appearance: none;
+  /* Enlever l'apparence par défaut des éléments de formulaire */
   background-color: transparent;
 }
 
 /* Éléments de liste */
 ul,
 ol {
-  list-style: none; /* Enlever les puces et numéros */
+  list-style: none;
+  /* Enlever les puces et numéros */
 }
 
 /* Suppression du comportement par défaut des blocs de citation */
 blockquote {
-  quotes: none; /* Supprime les guillemets par défaut */
+  quotes: none;
+  /* Supprime les guillemets par défaut */
 }
 
 blockquote::before,
 blockquote::after {
   content: '';
 }
-
