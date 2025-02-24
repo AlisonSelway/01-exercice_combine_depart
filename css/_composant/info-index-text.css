@@ -6,4 +6,8 @@
     padding: 2em;
     font-size: 1.1rem;
     background-color: var(--grisPale);
+    
+    @media (min-width:992px){
+        
+    }
 }

@@ -1,18 +1,18 @@
 /* [STRUCTURE GÉNÉRALE DE LA PAGE] */
 /* ---------------------------------------------- */
 
-.interface {
+.interface{
     display: grid;
     grid-template-columns: 1fr;
     height: 100vh;
 
     @media (min-width: 992px){
         grid-template-columns: 1fr 2fr;
-        
     }
 }
-.span2 {
-    @media (min-width:992px){
+
+.span2{
+    @media (min-width: 992px){
         grid-column: span 2;
     }
 }

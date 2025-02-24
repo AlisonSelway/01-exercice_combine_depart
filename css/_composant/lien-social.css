@@ -1,7 +1,7 @@
 /* [COMPOSANT SOCIAL--LINK] */
 /* ---------------------------------------------- */
 
-.social--link {
+.social--link{
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -10,29 +10,29 @@
     align-items: center;
     padding: 1rem;
     background-color: var(--mauve);
+}
 
-    a {
-        position: relative;
-        color: var(--blanc);
-        font-size: 1.4em;
-        transition: all .3s ease;
+.social--link a{
+    position: relative;
+    color: var(--blanc);
+    font-size: 1.4em;
+    transition: all .3s ease;
 
-        &:hover {
-            color: var(--grisHover);
-        }
+    &:hover{
+        color: var(--grisHover);
+    }
 
-        &::before {
-            display: block;
-            position: absolute;
-            content: "";
-            top: 0;
-            right: -48px;
-            width: 32px;
-            height: 32px;
-            background-image: url('../../assets/svg/icon-Facebook.svg');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: 24px 24px;
-        }
+    &::before{
+        display: block;
+        position: absolute;
+        content: "";
+        top: 0; 
+        right: -48px;
+        width: 32px;
+        height: 32px;
+        background-image: url('../../assets/svg/icon-Facebook.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 24px 24px;
     }
 }

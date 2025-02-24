@@ -10,24 +10,24 @@
     width: 100%;
     padding: 64px 0;
     background-color: var(--vert);
-    
-    p{
-        position: relative;
-        margin: 2rem 0;
-        padding-top: 1rem;
-        font-size: 2.8rem;
-        font-weight: 400;
-        color: var(--blanc);
-        text-align: center;
-        line-height: 2.8rem;
-        
-        span {
-            margin: 0;
-            padding: 0;
-        }
-    }
-    
-    /* &>.bouton--relative{
-        
-    } */
 }
+
+.info--complement p{
+    position: relative;
+    margin: 2rem 0;
+    padding-top: 1rem;
+    font-size: 2.8rem;
+    font-weight: 400;
+    color: var(--blanc);
+    text-align: center;
+    line-height: 2.8rem;
+}
+
+.info--complement span{
+    margin: 0;
+    padding: 0;
+}
+/* 
+.info--complement > .boutton--relative{
+
+} */
