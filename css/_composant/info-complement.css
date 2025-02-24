@@ -10,6 +10,12 @@
     width: 100%;
     padding: 64px 0;
     background-color: var(--vert);
+
+    @media (min-width:992px){
+        justify-content: start;
+        align-items: center;
+        padding: 0;
+    }
 }
 
 .info--complement p{
@@ -21,13 +27,67 @@
     color: var(--blanc);
     text-align: center;
     line-height: 2.8rem;
+
+    @media (min-width: 992px){
+        display: grid;
+        place-content: center;
+        width: 60%;
+        height: 70%;
+        align-self: start;
+        margin: 0 auto ;
+        font-size: 1.8em;
+    }
 }
 
 .info--complement span{
     margin: 0;
     padding: 0;
-}
-/* 
-.info--complement > .boutton--relative{
+    transition: all .3s ease;
 
-} */
+    @media (min-width: 992px){
+        display: block;
+
+        &:nth-child(2){
+            font-size: 4rem;
+            font-weight: 900;
+        }
+    }
+
+    @media (min-width: 1200px){
+        font-size: 2.6rem;
+        line-height: 3.8rem;
+
+        &:nth-child(2){
+            font-size: 5rem;
+        }
+    }
+
+    @media (min-width:1600px){
+        position: absolute;
+        font-size: 1em;
+        left: 0.7em;
+
+        &:nth-child(1){
+            top: 1.6em;
+            left: 2.3em;
+        }
+        &:nth-child(2){
+            top: 1em;
+            left: 0.7em;
+            font-size: 7rem;
+        }
+        &:nth-child(3){
+            top: 3.4em;
+            left: 1.1em;
+            font-size: 1.8em;
+            font-weight: 300;
+        }
+    }
+}
+
+.info--complement > .boutton--relative{
+    @media(min-width: 992px){
+        position: absolute;
+        bottom: 2rem;
+    }
+}

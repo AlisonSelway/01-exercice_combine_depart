@@ -9,4 +9,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    @media (min-width:992px){
+        height: 100%;
+    }
 }

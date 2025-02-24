@@ -1,13 +1,25 @@
 /* [COMPOSANT INFO--TEXT] */
 /* ---------------------------------------------- */
 
-.info--text{
+.info--text {
     display: grid;
     padding: 2em;
     font-size: 1.1rem;
     background-color: var(--grisPale);
-    
-    @media (min-width:992px){
-        
+
+    @media (min-width:992px) {
+        justify-self: center;
+        align-content: center;
+        padding-right: 4rem;
+        font-size: 0.96em;
+        font-weight: 300;
+        line-height: 1.8em;
+    }
+
+    @media (min-width:1200px){
+        padding: 6rem 4rem;
+    }
+    @media (min-width: 1400px){
+        font-size: 1.1rem;
     }
 }

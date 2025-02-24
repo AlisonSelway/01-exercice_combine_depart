@@ -10,6 +10,15 @@
     align-items: center;
     padding: 1rem;
     background-color: var(--mauve);
+    
+    @media (min-width: 1200px){
+        position: absolute;
+        bottom: 16px;
+        right: 16px;
+        justify-content: flex-end;
+        width: 60%;
+        padding-right: 64px;
+    }
 }
 
 .social--link a{
